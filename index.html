@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Webové aplikace</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Courgette&family=Righteous&family=Train+One&family=Yatra+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+  </head>
+  <body>
+
+    <header>
+      <h1 style="padding-bottom:40px;">Webové aplikace</h1>
+      <nav class="navbar nav sticky-top text-center" style="padding-top:2px; padding-bottom:2px;">
+        <div class="col-md-3"><a class="nav-link" href="#types">Typy webových aplikací</a></div>
+        <div class="col-md-3"><a class="nav-link" href="#phases">Fáze návrhu webové aplikace</a></div>
+        <div class="col-md-3"><a class="nav-link" href="#security">Bezpečnostní rizika webových aplikací</a></div>
+        <div class="col-md-3"><a class="nav-link" href="#redaction-ecommerce">Redakční systémy a e-commerce</a></div>
+      </nav>
+    </header>
+
+    <main class="container" style="padding:20px; padding-top:30px; margin-bottom: 20px;">
+      <h2 id="types">Typy webových aplikací</h2>
+      <h4>Statická</h4>
+      <p>
+        Malá webová aplikace s prakticky neměnným obsahem. Obsah se málo mění kvůli nízké potřebě a obtížným metodám jeho aktualizace. Stránka se musí celá stáhnout, upravit a pak zase odeslat na server.
+      </p>
+      <h4>Dynamická</h4>
+      <p>
+        Tato webová aplikace je složitější na výrobu, avšak slibuje jednodušší metody aktualizací. Není nutné přímo stahovat a zase posílat celou aplikaci, bývají přehlednější a mívají i kontrolní panel většinou ze systému CMS.
+      </p>
+      <h4>E-Commerce</h4>
+      <p>
+        Webová aplikace pro obchodování na internetu. Více informací <a href="#commerce">viz níže</a>.
+      </p>
+      <h4>CMS (Content Management System)</h4>
+      <p>
+        Aplikace s častými úpravami a aktualizacemi obsahu. CMS systém pomáhá ve správě. Více informací <a href="#redaction">viz níže</a>.
+      </p>
+      <h4>Portálová</h4>
+      <p>
+        Tato webová aplikace funguje na principu jedné hlavní strany s odkazy do mnoha dalších částí aplikace. Jsou to například fóra, chatovací aplikace, nebo taky email
+      </p>
+      <h4>Animovaná</h4>
+      <p>
+        Tento typ aplikací hojně využívá obrázků a animací, často pomocí technologie Flash. Díky tomuto obsahu jsou však špatně indexovatelné a vyhledávací systémy s nimi mají problém.
+      </p>
+      <h4>RIA (Rich Internet Application)</h4>
+      <p>
+        Webová aplikace, která má vlastnosti podobné té desktopové. Běží v prohlížeči a často vyžaduje tzv. plug-in.
+      </p>
+      
+      <hr>
+      <h2 id="phases">Fáze návrhu webové aplikace</h2>
+      <ol>
+        <li>
+          <h4>Nápad</h4>
+          <p>Nejprve si musíme říct, že chceme udělat web. O čem zhruba to bude, jaké barvy a obrázky tam chceme.</p>
+        </li>
+        <li>
+          <h4>Definování, co vlastně chceme</h4>
+          <p>Dále si musíme přesně rozvrhnout, co tam bude a co ne, co vše bude webová aplikace umět a jak to bude používáno.</p>
+        </li>
+        <li>
+          <h4>Výběr nástrojů a technologií</h4>
+          <p>Vybereme si, co vlastně k tvorbě budeme používat, s čím se nám bude nejlépe pracovat a díky čeho nejsnadněji dosáhneme realizace našeho nápadu.</p>
+        </li>
+        <li>
+          <h4>Tvorba funkcí</h4>
+          <p>Začneme tvořit vlastní aplikaci, nejprve aby to prostě fungovalo. Napíšeme si všechny funkce, otestujeme je, zabezpečíme si naše stránky.</p>
+        </li>
+        <li>
+          <h4>Design</h4>
+          <p>Vzhled by se měl řešit částečně během vývoje, ale hlavní část by se měla řešit až po napsání funkcí. Vyšperkujeme si naši aplikaci, aby byla příjemná pro naše oči.</p>
+        </li>
+        <li>
+          <h4>Dořešení problémů</h4>
+          <p>V této chvíli už jen "debugujeme" a řešíme poslední problémy, které vidíme. Některé chyby se projeví třeba až později, ale co můžeme ošetřit dnes, nenechávejme na zítřek.</p>
+        </li>
+        <li>
+          <h4>Vypuštění do jungle internetu</h4>
+          <p> V této fázi je již naše aplikace připravená pro vypuštění. Za běhu ji však stále spravujeme, upravujeme, aktualizujeme a opravujeme chyby, které se projevily až s vyšším náporem návštěvníků.</p>
+        </li>
+      </ol>
+
+      <hr>
+      <h2 id="security">Bezpečnostní rizika webových aplikací</h2>
+      <p>
+        Dnes je nutné mít nulovou rizikovost a nulový počet bezpečnostních chyb na webu. Pravda, je to nutné, ale ne všichni na to dbají.
+      </p>
+      <h3>Nejnebezpečnější chyby:</h3>
+
+      <h4>SQL Injection</h4>
+      <p>
+        Technika napadení databázové vrstvy "vsunutím" (injection) kódu přes nezabezpečený vstup do ní, a poté možný přístup a páchání neplechy vlastním pozměněným SQL dotazem. Vzniká spojením databázové a aplikační vrstvy, a dá se tomuto zabránit pomocí escapování potenciálně nebezpečných znaků. Takový útok se dá vykonat pomocí nezabezpečeného formuláře, upravené cookie nebo manipulace s URL.
+      </p>
+      <p>
+        Mnoho nezkušených programátorů o této hrozbě neví, a tak nechtěně vystavují své stránky riziku.
+      </p>
+
+      <h4>XSS (Cross-site scripting)</h4>
+      <p>
+        Metoda narušení webových stránek využitím bezpečnostních chyb v jejich scriptech. Útočník díky těmto chybám dokáže podstrčit do stránek svůj vlastní škodlivý JS kód, díky němuž může stránku poškodit, či získat citlivé údaje jiných návštěvníků. Často je toto využívané při phishingu, kdy návštěvníkovi se zobrazuje na stránce jiný obsah než na jinak důvěryhodné stránce.
+      </p>
+
+      <h4>CSRF/XSRF (Cross-site request forgery)</h4>
+      <p>
+        Útok na základě vyslání falešného požadavku pro vykonání určité věci. Většinou se nepoužívá k udělení přístupu, ale spíše využívá další uživatele již přihlášené do napadeného systému. Nejčastěji zaváděn scriptovacími jazyky nebo CGI.
+      </p>
+
+      <hr>
+      <h2 id="redaction-ecommerce">Redakční systémy a e-commerce</h2>
+
+      <h3 id="redaction">Redakční systémy</h3>
+      <p>
+        Redakční systémy (<span title="content management system">CMS</span>) jsou v dnešní době označované webové aplikace, někdy s případným doplňkovým programovým vybavením u klienta.
+      </p>
+      <h4>Základní funkce:</h4>
+      <ul>
+        <li>Tvorba, modifikace a publikace dokumentů či článků, většinou pomocí webového rozhraní a často s využitím jednoduchého editoru či formátování. Není nutná znalost HTML.</li>
+        <li>Řízení přístupu k dokumentům, správa uživatelů a jejich práv, často s funkcemi workflow či groupware.</li>
+        <li>Správa diskuzí a komentářů, buď obecným nebo přímo k dokumentům.</li>
+        <li>Správa souborů, obrázků a galerií, kalendářů a statistik týkajícího se daného webu.</li>
+      </ul>
+      <p>
+        Pomocí CMS mohou stránky spravovat editoři, kteří v zásadě nemají rozsáhlé znalosti v oblasti programování webových stránek a není nutnost jediného vysoce znalého programátora.
+      </p>
+      <p>
+        Používá se například WordPress, Drupal, Webnode, Comerto nebo Joomla.
+      </p>
+
+      <div class="row text-center">
+        <div class="col-md-4">
+          <a data-fancybox="gallery" href="images/wordpress_user.png"><img src="images/wordpress_user.png"></a>
+        </div>
+        <div class="col-md-4">
+          <a data-fancybox="gallery" href="images/wordpress.png"><img src="images/wordpress.png"></a>
+        </div>
+        <div class="col-md-4">
+          <a data-fancybox="gallery" href="images/joomla.png"><img src="images/joomla.png"></a>
+        </div>
+      </div>
+
+      <br>
+      <h3 id="commerce">E-commerce</h3>
+      <p>
+        E-commerce (elektronické obchodování) je forma obchodování využívající z velké části elektronické prostředky pro komunikaci. Základem je v dnešní době internet, ale také jsou používány další prostředky. Například telefon, elektronická pošta, či platební karta.
+      </p>
+      <p> 
+        Na internetu lze prodávat fyzické zboží, digitální služby a informace. U fyzického zboží jde často o spotřební zboží v elektronických obchodech, u služeb a informací jde o prodej zpráv, učebních materiálů či elektronické zábavy.
+      </p>
+      <h4>Základní druhy:</h4>
+      <ul>
+        <li><span title="Business-to-business"><strong>B-2-B</strong></span> - nabídka mezi firmami</li>
+        <li><span title="Business-to-customer"><strong>B-2-C</strong></span> - nabídky pro zákazníky</li>
+        <li><span title="Customer-to-business"><strong>C-2-B</strong></span> - sledování nabídek zákazníkem</li>
+        <li><span title="Customer-to-customer"><strong>C-2-C</strong></span> - názory a zpětná vazba</li>
+      </ul>
+    </main>
+
+    <footer>
+      &copy; 2021, Vavrečková Klára, IT4
+    </footer>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
